@@ -2,3 +2,6 @@ git remote set-url origin git@github.com:jeremyqzt/TestRepo2.git
 git push --all origin
 
 git remote add phase1 git@github.com:jeremyqzt/TestRepo1.git
+git merge phase1/main
+
+git push -u origin <branch_name>
